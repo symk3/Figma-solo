@@ -27,6 +27,14 @@ body {
   color: #bbc3cf;
 }
 
+.container-xl {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background: #f7f8f9;
+  height: 856px;
+}
+
 /* Nav bar */
 
 .nav-bar {
@@ -133,7 +141,16 @@ body {
 
 /* Video IMG */
 
+.video-img-container {
+  position: relative;
+}
+
 .video-img {
+  margin-top: -100px;
+  cursor: pointer;
+}
+
+.container .video-img {
   text-align: center;
   position: relative;
   z-index: 1;
@@ -142,19 +159,56 @@ body {
   text-align: left;
   position: absolute;
   left: 30px;
-  top: 50px;
+  top: -130px;
 }
 
 .sticker2 {
   position: absolute;
   right: 30px;
-  top: 560px;
+  top: 370px;
 }
 
-.playbutton {
-  position: absolute;
-  right: 485px;
-  top: 240px;
-  z-index: 2;
-  cursor: pointer;
+/* Companies */
+
+.companies {
+  width: 100%;
+}
+
+.companies-container {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.companies-heading {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.companies-title {
+  font-weight: 500;
+  color: #bbc3cf;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.companies-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 146px;
+  gap: 20px;
+}
+
+.company-logo-card {
+  background-color: #f7f8f9;
+  width: 261px;
+  height: 146px;
+  align-content: center;
+}
+
+/* Data */
+
+.data {
+  width: 100%;
+  background: #f7f8f9;
 }
