@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #22c55e;
+  --dark-color: #2a3342;
+  --light-color: #bbc3cf;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+/* Containers */
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  color: #bbc3cf;
+}
+
+/* Nav bar */
+
+.nav-bar {
+  background: #2a3342;
+}
+
+.nav-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a3342;
+  max-width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-bar ul li {
+  padding: 20px 10px;
+}
+
+.nav-bar ul li a {
+  padding: 20px;
+  color: #bbc3cf;
+  text-decoration: none;
+}
+
+/* Buttons */
+
+.button {
+  display: inline-block;
+  padding: 13px 20px;
+  text-decoration: none;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5;
+  text-align: center;
+  color: #bbc3cf;
+}
+
+.button-primary {
+  background: var(--primary-color);
+  color: #22c55e;
+}
+
+.button-dark {
+  background: var(--dark-color);
+  color: #bbc3cf;
+}
+.button-gray {
+  background: #404f65;
+}
+
+.head-buttons a {
+  margin: 0 10px;
+}
+
+/* Hero */
+
+.head {
+  background: #2a3342;
+}
+
+.head .container {
+  height: 800px;
+  padding-top: 80px;
+}
+
+.head-container {
+  padding-bottom: 20px;
+}
+.head-content {
+  text-align: center;
+  padding-top: 50px;
+  position: relative;
+  padding: 20px;
+}
+
+.badge {
+  position: absolute;
+  right: 485px;
+  top: -30px;
+  background: #22c55e;
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+.head-content h4 {
+  font-size: 80px;
+  color: #ffffff;
+}
+
+.head-content .subheading-title {
+  font-size: 28px;
+  color: #8896ab;
+  padding-bottom: 20px;
+}
+
+/* Video IMG */
+
+.video-img {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.sticker1 {
+  text-align: left;
+  position: absolute;
+  left: 30px;
+  top: 50px;
+}
+
+.sticker2 {
+  position: absolute;
+  right: 30px;
+  top: 560px;
+}
+
+.playbutton {
+  position: absolute;
+  right: 485px;
+  top: 240px;
+  z-index: 2;
+  cursor: pointer;
+}
