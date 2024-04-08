@@ -212,3 +212,13 @@ body {
   width: 100%;
   background: #f7f8f9;
 }
+
+.data-childs-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data-cards-container {
+  display: flex;
+  text-align: center;
+}
