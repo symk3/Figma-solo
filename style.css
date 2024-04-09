@@ -282,7 +282,8 @@ body {
   margin: 0 auto;
   width: 70%;
   align-content: center;
-  gap: 59px;
+  gap: 59px <a href= "#" class= "button button-dark" >Log In</a> <a href= "#"
+    style= "color: #f0fdf4" class= "button" >Sign Up</a>;
 }
 
 .testimonials-content {
@@ -322,4 +323,68 @@ body {
 
 .img-dots {
   padding-top: 50px;
+}
+
+/* Contacts */
+
+.first-contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-heading-content {
+  width: 70%;
+}
+
+.contacts-heading-buttons {
+  width: 30%;
+  text-align: center;
+  align-content: center;
+}
+.contact-badge {
+  background-color: #dcfce7;
+  width: 93px;
+  padding: 5px 9px;
+  border-radius: 50px;
+  color: #22c55e;
+  margin-bottom: 30px;
+}
+
+.contact-heading {
+  font-size: 48px;
+  line-height: 60px;
+  padding-bottom: 20px;
+  color: #2a3342;
+}
+
+.contact-subheading {
+  color: #556987;
+  font-size: 16px;
+  font-weight: 00;
+}
+
+.position-button {
+  display: inline-block;
+  padding: 20px 40px;
+  text-decoration: none;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5;
+  text-align: center;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.about-button {
+  display: inline-block;
+  padding: 20px 40px;
+  text-decoration: none;
+  border: 1px solid #d5dae1;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5;
+  text-align: center;
+  color: #333f51;
 }
