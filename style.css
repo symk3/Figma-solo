@@ -37,6 +37,16 @@ body {
   padding: 50px 50px;
 }
 
+.contacts-container-xl {
+  max-width: 1800px;
+  margin: 0 auto;
+  background: #f7f8f9;
+  height: 720px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 50px;
+}
+
 /* Nav bar */
 
 .nav-bar {
@@ -282,8 +292,7 @@ body {
   margin: 0 auto;
   width: 70%;
   align-content: center;
-  gap: 59px <a href= "#" class= "button button-dark" >Log In</a> <a href= "#"
-    style= "color: #f0fdf4" class= "button" >Sign Up</a>;
+  gap: 59px;
 }
 
 .testimonials-content {
@@ -387,4 +396,64 @@ body {
   transition: 0.5;
   text-align: center;
   color: #333f51;
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.contact-container {
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+  margin-top: 0;
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #45a049;
+}
+
+.social-content {
+  display: flex;
+  gap: 200px;
+  justify-content: space-between;
+}
+
+.social-contacts {
+  padding: 20px 0;
+}
+
+.social-info {
+  color: #556987;
 }
