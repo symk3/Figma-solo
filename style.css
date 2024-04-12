@@ -458,6 +458,7 @@ body {
   display: flex;
   gap: 200px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .social-contacts {
