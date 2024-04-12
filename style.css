@@ -31,7 +31,7 @@ body {
   max-width: 1800px;
   margin: 0 auto;
   background: #f7f8f9;
-  height: 856px;
+  height: 750px;
   align-items: center;
   justify-content: center;
   padding: 50px 50px;
@@ -40,11 +40,20 @@ body {
 .contacts-container-xl {
   max-width: 1800px;
   margin: 0 auto;
-  background: #f7f8f9;
   height: 720px;
   align-items: center;
   justify-content: center;
   padding: 50px 50px;
+}
+
+.footer-container-xl {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #2a3342;
+  height: 400px;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Nav bar */
@@ -456,4 +465,34 @@ body {
 
 .social-info {
   color: #556987;
+}
+
+/* Footer */
+
+.footer-content-container {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.footer-menu ul {
+  display: flex;
+  font-size: 20px;
+}
+
+.footer-menu ul li {
+  padding: 20px;
+  list-style-type: none;
+}
+
+.footer-menu ul li a {
+  color: #8896ab;
+  text-decoration: none;
+}
+
+.footer-copyrights {
+  font-size: 20px;
+  color: #8896ab;
 }
