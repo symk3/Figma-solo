@@ -461,10 +461,17 @@ body {
 
 .social-contacts {
   padding: 20px 0;
+  width: 200px;
 }
 
 .social-info {
   color: #556987;
+  padding-top: 15px;
+  margin-left: px;
+}
+
+.social-info a {
+  padding-right: 20px;
 }
 
 /* Footer */
